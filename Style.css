@@ -1,0 +1,212 @@
+.profile{
+    border-radius: 50%;
+    margin-left: 5%
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+.lead{
+    color: #C7C7C7;
+    font-size: 2rem;
+}
+
+#main{
+  display: grid;
+  padding: 5% 0;
+  grid-template-columns: 1fr .4fr;
+}
+
+.text{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#taylor{
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.taylor-text{
+  margin: 0 20%;
+  margin-bottom: 5%;
+}
+
+.cats-pics{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 5%;
+}
+
+h4{
+  color: #002d59;
+  font-weight: 300;
+  margin-top: 5%;
+  font-size: 2rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#myTaylorCarousel{
+  object-fit: fill;
+}
+
+#resume{
+  padding: 5% 0%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+#taylorCarousel{
+  height: 500px;
+  width: 500px;
+}
+
+.description{
+  color: #2e2d2d;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+#carouselHolder{
+  margin-left: 8%;
+}
+
+.carousel-inner{
+  border-radius: 50px;
+}
+
+span{
+  color: #3C5BCE;
+  font-weight: 500;
+}
+
+h6{
+  color: #002d59;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.cat-profile{
+    width: 25rem;
+    border-radius: 50%;
+   }
+
+.icon{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #3959F7, #A6CFFA);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+#cats{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.cats-text{
+  padding: 0 10%;
+  margin-bottom: 5%;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 1200px){
+    #main{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      padding: 5% ;
+    }
+
+    .profile{
+      margin-bottom: 10%;
+      margin-left: 0;
+    }
+
+    #resume{
+      display: flex;
+      flex-direction: column;
+      padding: 5%;
+      justify-content: center;
+      align-items: center;
+      text-align: justify;
+    }
+
+    #carouselHolder{
+      margin-left: 0;
+      margin-top: 5%;
+      width: 100%;
+    }
+
+    .text{
+      margin-top: 3%;
+    }
+
+    .taylor-text{
+      margin: 0;
+      margin-bottom: 5%;
+    }
+      
+    .cat-profile{
+      width: 15rem;
+      border-radius: 50%;
+    }
+
+    h4{
+      font-size: 1.5rem;
+    }
+
+    .cats-pics{
+      margin-bottom: 10%;
+    }
+
+
+}
+
+@media (max-width: 770px)
+{
+    #taylorCarousel{
+    height: 100%;
+    width: 100%;
+}
+
+      .cat-profile{
+      width: 15rem;
+      border-radius: 50%;
+    }
+}
