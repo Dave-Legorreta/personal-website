@@ -198,13 +198,13 @@ h6{
     }
 
     .cats-pics{
-      margin-bottom: 10%;
+      margin-bottom: 5%;
     }
 
 
 }
 
-@media (max-width: 770px)
+@media (max-width: 760px)
 {
     #taylorCarousel{
     height: 100%;
@@ -214,6 +214,10 @@ h6{
       .cat-profile{
       width: 15rem;
       border-radius: 50%;
+    }
+
+    .cats-pics{
+      margin-bottom: 2%;
     }
 }
 
